@@ -5,12 +5,12 @@ import bru from './assets/heroriginal.png'
 import background from './assets/background.jpg';
 import foregroundImg from './assets/foreground.jpg';
 import project1 from './assets/enveloped_in_developing.jpg'
-import project2 from './assets/whtmidoing.jpg'
+import project2 from './assets/whtmidoing.jpg'; import project4 from './assets/peachy.jpg'
 import project3 from './assets/e-wall.jpg'
 
 document.querySelector('#app').innerHTML = `
 <nav class="navbar">
-    <div class="logo"><img src="${project2}" id="bruh" width="100%" height="66px" style="display: block;"></div>
+    <div class="logo"><img src="${project2}" id="bruh" width="100%" height="68px" style="display: block;"></div>
 
     <ul class="nav-links">
         <li><a href="#hero">Home</a></li>
@@ -67,15 +67,15 @@ document.querySelector('#app').innerHTML = `
     <div class="project-grid">
 
         <div class="project-card">
+            <img src="${project3}" width="40%" height="30%">
+        </div>
+
+        <div class="project-card">
             <img src="${project1}">
         </div>
 
         <div class="project-card">
-            <img src="${project2}">
-        </div>
-
-        <div class="project-card">
-            <img src="${project3}" width="40%" height="30%">
+            <img src="${project4}" width="80%" height="60%">
         </div>
 
     </div>

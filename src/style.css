@@ -179,15 +179,6 @@ p, pre, h1, h2 {
   }
 }
 
-#docs {
-  border-right: 1px solid var(--border);
-
-  @media (max-width: 1024px) {
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-  }
-}
-
 #next-steps ul {
   list-style: none;
   padding: 0;
@@ -305,7 +296,12 @@ body {
 
 .navbar:hover {
   width: 100%;
-  margin-left: 0px;
+  height: 15%;
+  margin: 0px 0px 0px 0px;
+
+  #bruh {
+    height: 82.6px;
+  }
 }
 
 .nav-links {
@@ -421,7 +417,13 @@ body::before, body::after {
 
 @media all and (display-mode: fullscreen) {
   #bruh {
-    height: 86.5px;
+    height: 88.2px;
+  }
+
+  .navbar:hover {
+    #bruh {
+      height: 108px;
+    }
   }
 
   .nav-links a {
@@ -466,12 +468,4 @@ body.dark-mode .nav-links a:hover {
 
 body.dark-mode .nav-links a::after {
   background-color: #00d9ff; 
-}
-
-.title {
-  position: fixed;
-  left: 550px;
-  bottom: 300px;
-  z-index: 1000;
-  color: white;
 }
