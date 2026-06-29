@@ -104,6 +104,37 @@ Ever since, taking time on and off to bring out the best of my own crafty abilit
     <p><a href="https://github.com/brianzha-0"><img src=${bru} width="343px" height="361px"></a></p>
     <!--<h1 style="button: 300px; left: 550px; position: fixed;">You</h1>-->
 </section>
+
+</br></br><br>
+<p id="calibriate" style="font-size: 26px; font-family: Calibri;">Made with 💕 by Brian</p>
+
+<div id="butterfly-bottom-container">
+    <div class="butterfly b1">
+        <div class="wing left"></div>
+        <div class="wing right"></div>
+    </div>
+    <div class="butterfly b2">
+        <div class="wing left"></div>
+        <div class="wing right"></div>
+    </div>
+    <div class="butterfly b3">
+        <div class="wing left"></div>
+        <div class="wing right"></div>
+    </div>
+    <div class="butterfly b4">
+        <div class="wing left"></div>
+        <div class="wing right"></div>
+    </div>
+                               </div>
+
+  <div id="firefly-bottom-container">
+    <div class="firefly-dot f1"></div>
+    <div class="firefly-dot f2"></div>
+    <div class="firefly-dot f3"></div>
+    <div class="firefly-dot f4"></div>
+    <div class="firefly-dot f5"></div>
+    <div class="firefly-dot f6"></div>
+                               </div>                          
 `
 
 const nav = document.querySelector(".nav-links")
