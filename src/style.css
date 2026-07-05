@@ -126,7 +126,7 @@ p, pre, h1, h2 {
     transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
       scale(0.8);
   }
-}*/
+} */
 
 #app {
   width: 1126px;
@@ -470,6 +470,98 @@ body.dark-mode .nav-links a::after {
   background-color: #00d9ff; 
 }
 
+.photography-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #f4f1ea; 
+}
+
+.book-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+  min-height: 600px;
+  background-image: url('/src/assets/scatered.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 40px;
+  gap: 40px;
+}
+
+.book-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+
+.photo-placeholder.polaroid {
+  background: #ffffff;
+  padding: 15px 15px 30px 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e2e2;
+  transition: transform 0.3s ease;
+  width: 80%;
+  max-width: 300px;
+}
+
+.photo-placeholder.polaroid:hover {
+  transform: scale(1.03) rotate(0deg) !important;
+  z-index: 10;
+}
+
+.image-slot {
+  width: 100%;
+  aspect-ratio: 4 / 3; 
+  background-color: #e9ecef;
+  border: 1px dashed #adb5bd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6c757d;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+
+.caption {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  color: #495057;
+}
+
+.rotate-left {
+  transform: rotate(-3deg);
+}
+
+.rotate-right {
+  transform: rotate(4deg);
+}
+
+@media (max-width: 768px) {
+  .book-container {
+    grid-template-columns: 1fr;
+    background-image: none; 
+    background-color: #ffffff;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .photo-placeholder.polaroid {
+    transform: none !important;
+    width: 100%;
+  }
+}
 
 #butterfly-bottom-container,
 #firefly-bottom-container {
@@ -672,4 +764,4 @@ body.dark-mode #butterfly-bottom-container {
 @keyframes blink-slow { 
   0%, 100% { opacity: 0.05; } 
   40%, 70% { opacity: 1; } 
-}  
+}

@@ -105,6 +105,35 @@ Ever since, taking time on and off to bring out the best of my own crafty abilit
     <!--<h1 style="button: 300px; left: 550px; position: fixed;">You</h1>-->
 </section>
 
+<section class="photography-section">
+  <div class="book-container">
+    <div class="book-page page-left">
+      <div class="photo-placeholder polaroid">
+        <div class="image-slot">
+            <img style="width: 100%; height: 100%;" alt="Day Z" src="/src/assets/lackadaisycal.webp">
+        </div>
+        <p class="caption">Yellow & White Right Out In The Open, Proudly</p>
+      </div>
+    </div>
+
+    <div class="book-page page-right">
+      <div class="photo-placeholder polaroid rotate-right">
+        <div class="image-slot">
+            <img style="width: 100%; height: 100%;" alt="Graved Anger" src="/src/assets/light-bugs.png">
+        </div>
+        <p class="caption">A Glow In The Dark Bug's Cohort</p>
+      </div>
+
+      <div class="photo-placeholder polaroid rotate-left">
+        <div class="image-slot">
+          <img style="width: 100%; height: 100%;" alt="Wings of Flier" src="/src/assets/better-fly.jpg">
+        </div>
+        <p class="caption">Set Up Successfully</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 </br></br><br>
 <p id="calibriate" style="font-size: 26px; font-family: Calibri;">Made with 💕 by Brian</p>
 
