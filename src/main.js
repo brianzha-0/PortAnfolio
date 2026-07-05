@@ -110,7 +110,7 @@ Ever since, taking time on and off to bring out the best of my own crafty abilit
     <div class="book-page page-left">
       <div class="photo-placeholder polaroid">
         <div class="image-slot">
-            <img style="width: 100%; height: 100%;" alt="Day Z" src="/src/assets/lackadaisycal.webp">
+            <img style="width: 100%; height: 100%;" alt="Day Z" src="/lackadaisycal.webp">
         </div>
         <p class="caption">Yellow & White Right Out In The Open, Proudly</p>
       </div>
@@ -119,14 +119,14 @@ Ever since, taking time on and off to bring out the best of my own crafty abilit
     <div class="book-page page-right">
       <div class="photo-placeholder polaroid rotate-right">
         <div class="image-slot">
-            <img style="width: 100%; height: 100%;" alt="Graved Anger" src="/src/assets/light-bugs.png">
+            <img style="width: 100%; height: 100%;" alt="Graved Anger" src="/light-bugs.png">
         </div>
         <p class="caption">A Glow In The Dark Bug's Cohort</p>
       </div>
 
       <div class="photo-placeholder polaroid rotate-left">
         <div class="image-slot">
-          <img style="width: 100%; height: 100%;" alt="Wings of Flier" src="/src/assets/better-fly.jpg">
+          <img style="width: 100%; height: 100%;" alt="Wings of Flier" src="/better-fly.jpg">
         </div>
         <p class="caption">Set Up Successfully</p>
       </div>
