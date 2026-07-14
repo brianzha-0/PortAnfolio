@@ -126,7 +126,7 @@ Ever since, taking time on and off to bring out the best of my own crafty abilit
 
       <div class="photo-placeholder polaroid rotate-left">
         <div class="image-slot">
-          <img style="width: 100%; height: 100%;" alt="Wings of Flier" src="/better-fly.jpg">
+          <img style="width: 100%; height: 100%;" alt="Wings of Flier" src="/IMG_20260712_153618780.jpg">
         </div>
         <p class="caption">Set Up Successfully</p>
       </div>
