@@ -119,14 +119,6 @@ Ever since, taking time on and off to bring out the best of my own crafty abilit
     </br></br>
 </section>
 
-<section id="contact">
-
-    <h2>Reach ReactJS, Knowledgeable Crafter:</h2>
-    <!--<h2 style="bottom: 300px; left: 550px; position: fixed;">Me</h2>-->
-    <p><a href="https://github.com/brianzha-0"><img src=${bru} width="343px" height="361px" style="border-radius: 45.6%; margin-bottom: -100px;"></a><br><img src="/src/assets/placeolder.png" width="500px" height="500px"></p>
-    <!--<h1 style="button: 300px; left: 550px; position: fixed;">You</h1>-->
-</section>
-
 <section class="photography-section">
   <div class="book-container">
     <div class="book-page page-left">
@@ -177,6 +169,13 @@ Ever since, taking time on and off to bring out the best of my own crafty abilit
         <div class="wing right"></div>
     </div>
                                </div>
+<section id="contact">
+
+    <h2>Reach ReactJS, Knowledgeable Crafter:</h2>
+    <!--<h2 style="bottom: 300px; left: 550px; position: fixed;">Me</h2>-->
+    <p><a href="https://github.com/brianzha-0"><img src=${bru} width="343px" height="361px" style="border-radius: 45.6%; margin-bottom: -100px;"></a><br><img src="/src/assets/placeolder.png" width="500px" height="500px"></p>
+    <!--<h1 style="button: 300px; left: 550px; position: fixed;">You</h1>-->
+</section>
 
   <div id="firefly-bottom-container">
     <div class="firefly-dot f1"></div>
@@ -184,6 +183,7 @@ Ever since, taking time on and off to bring out the best of my own crafty abilit
     <div class="firefly-dot f3"></div>
     <div class="firefly-dot f4"></div>
     <div class="firefly-dot f5"></div>
+    
     <div class="firefly-dot f6"></div>
                                </div>                          
 `
