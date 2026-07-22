@@ -1,7 +1,7 @@
 import './style.css'
 import heroImg from './assets/hi.png'
 import villain from './assets/hero.png'
-import bru from './assets/heroriginal.png'
+import bru from '/public/indepthvisual.png';
 import background from './assets/background.jpg';
 import foregroundImg from './assets/foreground.jpg';
 import project1 from './assets/enveloped_in_developing.jpg'
@@ -67,15 +67,36 @@ document.querySelector('#app').innerHTML = `
     <div class="project-grid">
 
         <div class="project-card">
-            <img src="${project3}" width="40%" height="30%">
+            <div class="project-img-wrapper">
+                <img src="${project3}" alt="Project 3 Visual Blueprint">
+            </div>
+            <div class="project-info">
+                <span class="project-tag">Development</span>
+                <h3>Project Title Three</h3>
+                <p>Insert your dynamic project description here. This widget features an alternating layout block system to keep your portfolio visually striking and scannable for employers and visitors.</p>
+            </div>
         </div>
 
         <div class="project-card">
-            <img src="${project1}">
+            <div class="project-img-wrapper">
+                <img src="${project1}" alt="Project 1 Visual Blueprint">
+            </div>
+            <div class="project-info">
+                <span class="project-tag">Design System</span>
+                <h3>Project Title One</h3>
+                <p>Insert your dynamic project description here. Replace this boilerplate text with details about your architecture, tech stack choice, specific performance hurdles, or final application outcomes.</p>
+            </div>
         </div>
 
         <div class="project-card">
-            <img src="${project4}" width="80%" height="60%">
+            <div class="project-img-wrapper">
+                <img src="${project4}" alt="Project 4 Visual Blueprint">
+            </div>
+            <div class="project-info">
+                <span class="project-tag">Analytics</span>
+                <h3>Project Title Four</h3>
+                <p>Insert your dynamic project description here. Highlight your key contributions, core metrics achieved, or user experience enhancements that demonstrate the real-world utility of your build.</p>
+            </div>
         </div>
 
     </div>
@@ -99,9 +120,10 @@ Ever since, taking time on and off to bring out the best of my own crafty abilit
 </section>
 
 <section id="contact">
-    <h2>Contact Another Proactive Person:</h2>
+
+    <h2>Reach ReactJS, Knowledgeable Crafter:</h2>
     <!--<h2 style="bottom: 300px; left: 550px; position: fixed;">Me</h2>-->
-    <p><a href="https://github.com/brianzha-0"><img src=${bru} width="343px" height="361px"></a></p>
+    <p><a href="https://github.com/brianzha-0"><img src=${bru} width="343px" height="361px" style="border-radius: 45.6%; margin-bottom: -100px;"></a><br><img src="/src/assets/placeolder.png" width="500px" height="500px"></p>
     <!--<h1 style="button: 300px; left: 550px; position: fixed;">You</h1>-->
 </section>
 
