@@ -149,7 +149,7 @@ Ever since, taking time on and off to bring out the best of my own crafty abilit
 </section>
 
 </br></br><br>
-<p id="calibriate" style="font-size: 26px; font-family: Calibri;">Made with 💕 by Brian</p>
+<p id="contact" style="font-size: 26px; font-family: Calibri;">Made with 💕 by Brian</p>
 
 <div id="butterfly-bottom-container">
     <div class="butterfly b1">
@@ -169,13 +169,6 @@ Ever since, taking time on and off to bring out the best of my own crafty abilit
         <div class="wing right"></div>
     </div>
                                </div>
-<section id="contact">
-
-    <h2>Reach ReactJS, Knowledgeable Crafter:</h2>
-    <!--<h2 style="bottom: 300px; left: 550px; position: fixed;">Me</h2>-->
-    <p><a href="https://github.com/brianzha-0"><img src=${bru} width="343px" height="361px" style="border-radius: 45.6%; margin-bottom: -100px;"></a><br><img src="/src/assets/placeolder.png" width="500px" height="500px"></p>
-    <!--<h1 style="button: 300px; left: 550px; position: fixed;">You</h1>-->
-</section>
 
   <div id="firefly-bottom-container">
     <div class="firefly-dot f1"></div>
@@ -185,7 +178,16 @@ Ever since, taking time on and off to bring out the best of my own crafty abilit
     <div class="firefly-dot f5"></div>
     
     <div class="firefly-dot f6"></div>
-                               </div>                          
+                               </div>
+
+<section>
+<div class="welcomunification" style="position: absolute; top: 622%; left: 50%; bottom: 13%; transform: translate(-50%, -50%); width: 500px; height: 200px; pointer-events: none;"><svg viewBox="0 0 500 200" style="width: 100%; height: 100%;"><path id="curveSmile" d="M 50,150 Q 250,50 450,150" fill="none" /><text font-family="Calibri, sans-serif" font-size="22" font-weight="bold" fill="#3dace3"><textPath href="#curveSmile" startOffset="50%" text-anchor="middle">Find Out More Around Me:</textPath></text></svg></div>
+    <!--<h2 style="bottom: 300px; left: 550px; position: fixed;">Me</h2>-->
+    <p><a href="https://github.com/brianzha-0"><img src=${bru} width="343px" height="361px" style="border-radius: 45.6%; margin-bottom: -143px;"></a><br><img src="/public/placeolder.png" width="564px" height="564px"></p>
+    <!--<h1 style="button: 300px; left: 550px; position: fixed;">You</h1>-->
+</section>       
+
+<a href="https://devpost.com/brianzha0"><img src="/public/devscriptive.png"></a>
 `
 
 const nav = document.querySelector(".nav-links")
